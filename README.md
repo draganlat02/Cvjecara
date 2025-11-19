@@ -163,6 +163,6 @@ Dodavanje novog proizvoda
 
 ### Odjava
 - Ikona na dnu lijevog menija 
-
+![Teme i jezik](Screenshots/10_odjava.png)
 ---
 
