@@ -155,7 +155,7 @@ Dodavanje novog proizvoda
 
 ### Promjena teme i jezika
 ![Teme i jezik](Screenshots/09_tema.png)
-![Teme i jezik](Screenshots/jezik.png)
+![Teme i jezik](Screenshots/09_jezik.png)
 
 - Gore desno:
   - Tri kruga → **Svijetla | Pink | Ocean** tema
