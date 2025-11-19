@@ -1,0 +1,272 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- LOGIN -->
+    <sys:String x:Key="Login_Title">Cvjećara Manager - Prijava</sys:String>
+    <sys:String x:Key="Login_Username">Korisničko ime</sys:String>
+    <sys:String x:Key="Login_Password">Lozinka</sys:String>
+    <sys:String x:Key="Login_Button">Prijava</sys:String>
+
+    <!-- MENU -->
+    <sys:String x:Key="Menu_Orders">Narudžbe</sys:String>
+    <sys:String x:Key="Menu_Products">Proizvodi</sys:String>
+    <sys:String x:Key="Menu_Employees">Zaposleni</sys:String>
+    <sys:String x:Key="Menu_Settings">Postavke</sys:String>
+
+    <!-- DUGMAD -->
+    <sys:String x:Key="Btn_Save">Sačuvaj</sys:String>
+    <sys:String x:Key="Btn_Delete">Obriši</sys:String>
+    <sys:String x:Key="Btn_Cancel">Odustani</sys:String>
+    <sys:String x:Key="Btn_Add">Dodaj</sys:String>
+    <sys:String x:Key="Btn_Edit">Uredi</sys:String>
+
+    <!-- KORPA -->
+    <sys:String x:Key="Cart_Title">Moja korpa</sys:String>
+    <sys:String x:Key="Cart_Empty">Korpa je prazna</sys:String>
+    <sys:String x:Key="Cart_Add">Dodajte proizvode da započnete kupovinu</sys:String>
+    <sys:String x:Key="Cart_Total">UKUPNO:</sys:String>
+    <sys:String x:Key="Cart_Checkout">Završi kupovinu</sys:String>
+
+    <!-- OSTALO -->
+    <sys:String x:Key="Customer_Name">Ime kupca:</sys:String>
+    <sys:String x:Key="Note">Napomena (opcionalno):</sys:String>
+    <sys:String x:Key="Status_Pending">U obradi</sys:String>
+    <sys:String x:Key="Status_Completed">Završeno</sys:String>
+    <sys:String x:Key="Status_Canceled">Otkazano</sys:String>
+
+
+
+
+
+    <!-- bs-BA.xaml -->
+    <sys:String x:Key="App_Title">Cvjećara Manager</sys:String>
+
+
+
+    <sys:String x:Key="Btn_ChangeStatus">Promijeni status</sys:String>
+    <sys:String x:Key="Period_7Days">Poslednjih 7 dana</sys:String>
+    <sys:String x:Key="Period_14Days">Poslednjih 14 dana</sys:String>
+    <sys:String x:Key="Period_30Days">Poslednjih 30 dana</sys:String>
+    <sys:String x:Key="Period_6Months">Poslednjih 6 mjeseci</sys:String>
+    <sys:String x:Key="Period_1Year">Poslednjih godinu dana</sys:String>
+    <sys:String x:Key="Period_All">Sve narudžbe</sys:String>
+    <sys:String x:Key="Col_ID">ID</sys:String>
+    <sys:String x:Key="Col_Customer">Ime Kupca</sys:String>
+    <sys:String x:Key="Col_Date">Datum</sys:String>
+    <sys:String x:Key="Col_Note">Napomena</sys:String>
+    <sys:String x:Key="Col_Status">Status</sys:String>
+    <sys:String x:Key="Col_Total">Ukupno</sys:String>
+    <sys:String x:Key="Col_Items">Stavke</sys:String>
+    <sys:String x:Key="Msg_NoOrders">Nema narudžbi za prikaz</sys:String>
+    <sys:String x:Key="Btn_AddProduct">Dodaj proizvod</sys:String>
+    <sys:String x:Key="Btn_EditProduct">Uredi proizvod</sys:String>
+    <sys:String x:Key="Theme_Light">Svijetla tema</sys:String>
+    <sys:String x:Key="Theme_Pink">Roza tema</sys:String>
+    <sys:String x:Key="Theme_Ocean">Ocean tema</sys:String>
+    <sys:String x:Key="Btn_Logout">Odjava</sys:String>
+    <!-- AddProizvodWindow -->
+    <sys:String x:Key="AddProduct_Title">Dodaj proizvod</sys:String>
+    <sys:String x:Key="AddProduct_Header">Dodavanje novog proizvoda</sys:String>
+    <sys:String x:Key="AddProduct_Name">Naziv:</sys:String>
+    <sys:String x:Key="AddProduct_Price">Cijena:</sys:String>
+    <sys:String x:Key="AddProduct_Code">Šifra:</sys:String>
+    <sys:String x:Key="AddProduct_Description">Opis:</sys:String>
+    <sys:String x:Key="AddProduct_Category">Kategorija:</sys:String>
+
+    <!-- KorpaWindow -->
+    <sys:String x:Key="Cart_NameHeader">Naziv</sys:String>
+    <sys:String x:Key="Cart_PriceHeader">Cijena (KM)</sys:String>
+    <sys:String x:Key="Cart_QuantityHeader">Količina</sys:String>
+    <sys:String x:Key="Cart_TotalHeader">Ukupno (KM)</sys:String>
+    <sys:String x:Key="Cart_RemoveHeader">Ukloni</sys:String>
+    <sys:String x:Key="Cart_RemoveButton">Ukloni</sys:String>
+    <sys:String x:Key="Cart_TotalLabel">UKUPNO:</sys:String>
+    <sys:String x:Key="Cart_Tooltip_Name">Unesite ime kupca</sys:String>
+    <sys:String x:Key="Cart_Tooltip_Remove">Ukloni iz korpe</sys:String>
+
+
+    <!-- KupacPanel - Referent -->
+    <sys:String x:Key="Customer_Panel_Title">Kupac Panel</sys:String>
+    <sys:String x:Key="Customer_Welcome">Dobrodošli u katalog proizvoda!</sys:String>
+    <sys:String x:Key="Customer_OrdersBtn">Pregled narudžbi</sys:String>
+    <sys:String x:Key="Customer_SearchPlaceholder">Pretraži proizvode...</sys:String>
+    <sys:String x:Key="Customer_AllCategories">Sve kategorije</sys:String>
+    <sys:String x:Key="Customer_Sort_NameAZ">Naziv (A-Z)</sys:String>
+    <sys:String x:Key="Customer_Sort_NameZA">Naziv (Z-A)</sys:String>
+    <sys:String x:Key="Customer_Sort_PriceLow">Cijena (Lowest)</sys:String>
+    <sys:String x:Key="Customer_Sort_PriceHigh">Cijena (Highest)</sys:String>
+    <sys:String x:Key="Customer_CartBtn">Korpa</sys:String>
+    <sys:String x:Key="Customer_LogoutBtn">Odjava</sys:String>
+    <sys:String x:Key="Customer_AddToCartBtn">Dodaj u korpu</sys:String>
+    <sys:String x:Key="Customer_Tooltip_Orders">Prikaži sve tvoje prethodne narudžbe</sys:String>
+    <sys:String x:Key="Customer_Tooltip_Cart">Otvori korpu</sys:String>
+
+
+    <!-- NarudzbaDetaljiWindow -->
+    <sys:String x:Key="OrderDetails_Title">Detalji narudžbe</sys:String>
+    <sys:String x:Key="OrderDetails_Header">Detalji narudžbe</sys:String>
+    <sys:String x:Key="OrderDetails_Customer">Kupac:</sys:String>
+    <sys:String x:Key="OrderDetails_Date">Datum:</sys:String>
+    <sys:String x:Key="OrderDetails_Status">Status:</sys:String>
+    <sys:String x:Key="OrderDetails_Product">Proizvod</sys:String>
+    <sys:String x:Key="OrderDetails_Quantity">Količina</sys:String>
+    <sys:String x:Key="OrderDetails_Price">Cijena</sys:String>
+    <sys:String x:Key="OrderDetails_Total">Ukupno</sys:String>
+    <sys:String x:Key="OrderDetails_CompleteBtn">Završi narudžbu</sys:String>
+    <sys:String x:Key="OrderDetails_CancelBtn">Otkaži narudžbu</sys:String>
+    <sys:String x:Key="OrderDetails_CompletedMsg">Narudžba je završena</sys:String>
+    <sys:String x:Key="OrderDetails_CanceledMsg">Narudžba je otkazana</sys:String>
+    <sys:String x:Key="OrderDetails_TotalLabel">UKUPNO:</sys:String>
+    <sys:String x:Key="OrderDetails_NoteLabel">Napomena:</sys:String>
+    <sys:String x:Key="OrderDetails_NoNote">Nema napomene</sys:String>
+
+    <!-- NarudzbeKupacWindow -->
+    <sys:String x:Key="CustomerOrders_Title">Moje narudžbe</sys:String>
+    <sys:String x:Key="CustomerOrders_SearchPlaceholder">Pretraži po kupcu...</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Pending">U obradi</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Completed">Završene</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Canceled">Otkazane</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_7Days">Poslednjih 7 dana</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_14Days">Poslednjih 14 dana</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_30Days">Poslednjih 30 dana</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_6Months">Poslednjih 6 mjeseci</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_1Year">Poslednjih godinu dana</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_All">Sve narudžbe</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Customer">Kupac</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Date">Datum</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Status">Status</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Total">Ukupno</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Items">Stavke</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Note">Napomena</sys:String>
+    <sys:String x:Key="CustomerOrders_Empty_Title">Nemate narudžbi za prikaz</sys:String>
+    <sys:String x:Key="CustomerOrders_Empty_Subtitle">Pokušajte promijeniti filtere ili period</sys:String>
+
+
+    <!-- PromjenaStatusaWindow -->
+    <sys:String x:Key="StatusChange_Title">Promjena statusa</sys:String>
+    <sys:String x:Key="StatusChange_Header">Promjena statusa narudžbe</sys:String>
+    <sys:String x:Key="StatusChange_Label">Odaberite novi status:</sys:String>
+    <sys:String x:Key="StatusChange_CancelBtn">Odustani</sys:String>
+    <sys:String x:Key="StatusChange_SaveBtn">Sačuvaj</sys:String>
+
+
+    <!-- UpravljanjeZaposlenimaWindow -->
+    <sys:String x:Key="EmployeeManagement_Title">Upravljanje zaposlenima</sys:String>
+    <sys:String x:Key="EmployeeManagement_Header">Dodaj / Uredi zaposlenog</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Name">Ime:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Surname">Prezime:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Contact">Kontakt:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Position">Pozicija:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Username">Username:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Password">Password:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Save">Sačuvaj</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Clear">Očisti polja</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_ID">ID</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Name">Ime</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Surname">Prezime</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Contact">Kontakt</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Position">Pozicija</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Username">Username</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Action">Akcija</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Delete">Brisanje</sys:String>
+
+    <!-- UrediProizvodeWindow -->
+    <sys:String x:Key="EditProducts_Title">Uredi proizvode</sys:String>
+    <sys:String x:Key="EditProducts_Label_Name">Naziv:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Price">Cijena:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Code">Šifra:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Description">Opis:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Category">Kategorija:</sys:String>
+    <sys:String x:Key="EditProducts_Button_Save">Sačuvaj</sys:String>
+    <sys:String x:Key="EditProducts_Button_Delete">Obriši</sys:String>
+    <sys:String x:Key="EditProducts_Column_ID">ID</sys:String>
+    <sys:String x:Key="EditProducts_Column_Name">Naziv</sys:String>
+    <sys:String x:Key="EditProducts_Column_Price">Cijena</sys:String>
+    <sys:String x:Key="EditProducts_Column_Code">Šifra</sys:String>
+    <sys:String x:Key="EditProducts_Column_Description">Opis</sys:String>
+    <sys:String x:Key="EditProducts_Column_Category">Kategorija</sys:String>
+
+    <!-- UrediProizvodeWindow - Poruke -->
+    <sys:String x:Key="EditProducts_SelectToEdit">Izaberite proizvod za uređivanje dvostrukim klikom.</sys:String>
+    <sys:String x:Key="EditProducts_SelectToDelete">Izaberite proizvod za brisanje dvostrukim klikom.</sys:String>
+    <sys:String x:Key="EditProducts_FillAllFields">Molimo popunite sva obavezna polja!</sys:String>
+    <sys:String x:Key="EditProducts_InvalidPrice">Unesite ispravan format cijene!</sys:String>
+    <sys:String x:Key="EditProducts_CodeExists">Proizvod sa ovom šifrom već postoji!</sys:String>
+    <sys:String x:Key="EditProducts_Updated">Proizvod ažuriran!</sys:String>
+    <sys:String x:Key="EditProducts_Deleted">Proizvod obrisan!</sys:String>
+    <sys:String x:Key="EditProducts_ConfirmDelete">Jeste li sigurni da želite obrisati '{0}'?</sys:String>
+    <sys:String x:Key="EditProducts_ErrorUpdate">Greška pri ažuriranju proizvoda: {0}</sys:String>
+    <sys:String x:Key="EditProducts_ErrorDelete">Greška pri brisanju proizvoda: {0}</sys:String>
+
+    <!-- NarudzbaDetaljiWindow - Poruke -->
+    <sys:String x:Key="OrderDetails_StatusChanged">Status promijenjen na '{0}'.</sys:String>
+    <sys:String x:Key="OrderDetails_StatusUpdated">Narudžba je sada: {0}</sys:String>
+    <sys:String x:Key="OrderDetails_ErrorUpdate">Greška: {0}</sys:String>
+
+    <!-- VALIDACIJA IMENA I PREZIMENA -->
+    <sys:String x:Key="Msg_NameOnlyLetters">Ime može sadržavati samo slova!</sys:String>
+    <sys:String x:Key="Msg_SurnameOnlyLetters">Prezime može sadržavati samo slova!</sys:String>
+    <sys:String x:Key="Title_Error">Greška</sys:String>
+
+
+    <sys:String x:Key="Msg_SelectOrder">Molimo izaberite narudžbu.</sys:String>
+
+    <!-- Zarada -->
+    <sys:String x:Key="Total_Earnings">Ukupna zarada: {0:F2} KM</sys:String>
+
+    <sys:String x:Key="Cart_CustomerName">Ime kupca</sys:String>
+    <sys:String x:Key="Cart_CustomerName_Placeholder">Unesite ime kupca...</sys:String>
+
+
+    <sys:String x:Key="Cart_Empty_Title">Korpa je prazna</sys:String>
+    <sys:String x:Key="Cart_Empty_Subtitle">Dodajte proizvode da započnete kupovinu</sys:String>
+    <sys:String x:Key="Cart_Column_Product">Naziv</sys:String>
+    <sys:String x:Key="Cart_Column_Price">Cijena (KM)</sys:String>
+    <sys:String x:Key="Cart_Column_Quantity">Količina</sys:String>
+    <sys:String x:Key="Cart_Column_Total">Ukupno (KM)</sys:String>
+    <sys:String x:Key="Cart_Column_Remove">Ukloni</sys:String>
+    <sys:String x:Key="Cart_RemoveBtn">Ukloni</sys:String>
+    <sys:String x:Key="Cart_CustomerName_Tooltip">Unesite ime kupca</sys:String>
+    <sys:String x:Key="Cart_Note">Napomena (opcionalno):</sys:String>
+    <sys:String x:Key="Cart_FinishBtn">Završi kupovinu</sys:String>
+    <sys:String x:Key="Msg_EnterCustomerName">Molimo unesite ime kupca prije slanja narudžbe!</sys:String>
+    <sys:String x:Key="Msg_CartEmpty">Korpa je prazna!</sys:String>
+    <sys:String x:Key="Msg_OrderSuccess">Narudžba uspješno sačuvana!</sys:String>
+
+    <!-- bs-BA.xaml -->
+    <sys:String x:Key="Tab_Orders">Narudžbe</sys:String>
+    <sys:String x:Key="Tab_Products">Proizvodi</sys:String>
+    <sys:String x:Key="Tab_Employees">Zaposleni</sys:String>
+    <sys:String x:Key="Tab_Logout">Odjava</sys:String>
+    <sys:String x:Key="Btn_InProgress">U obradi</sys:String>
+    <sys:String x:Key="Btn_Completed">Završeno</sys:String>
+    <sys:String x:Key="Btn_Cancelled">Otkazano</sys:String>
+
+  
+    <sys:String x:Key="Filter_ByStatus">Filtriraj po statusu:</sys:String>
+
+    <!-- bs-BA.xaml -->
+    <sys:String x:Key="EmptyProducts_Title">Nema proizvoda za prikaz</sys:String>
+    <sys:String x:Key="EmptyProducts_Subtitle">Pokušajte promijeniti pretragu, kategoriju ili sortiranje.</sys:String>
+
+    <sys:String x:Key="Msg_AllFieldsRequired">Sva polja su obavezna osim kontakta!</sys:String>
+    <sys:String x:Key="Msg_NameLettersOnly">Ime može sadržavati samo slova i razmake!</sys:String>
+    <sys:String x:Key="Msg_SurnameLettersOnly">Prezime može sadržavati samo slova i razmake!</sys:String>
+    <sys:String x:Key="Msg_ContactNumbersOnly">Kontakt može sadržavati samo brojeve!</sys:String>
+    <sys:String x:Key="Msg_ContactLength">Kontakt mora imati 9 ili 10 brojeva!</sys:String>
+    <sys:String x:Key="Msg_ContactMustStartWith06">Kontakt mora počinjati sa 06</sys:String>
+    <sys:String x:Key="Msg_UsernameExists">Ovaj username već postoji!</sys:String>
+    <sys:String x:Key="Msg_UsernameMinLength">Username mora imati najmanje 4 karaktera!</sys:String>
+    <sys:String x:Key="Msg_UsernameInvalidChars">Username može sadržavati samo slova, brojeve i donju crtu (_)</sys:String>
+    <sys:String x:Key="Msg_PasswordMinLength">Lozinka mora imati najmanje 6 karaktera!</sys:String>
+    <sys:String x:Key="Msg_EmployeeAdded">Zaposleni uspješno dodan!</sys:String>
+    <sys:String x:Key="Msg_EmployeeUpdated">Zaposleni uspješno ažuriran!</sys:String>
+    <sys:String x:Key="Msg_ConfirmDelete">Jeste li sigurni da želite obrisati {0} {1}?</sys:String>
+    <sys:String x:Key="Msg_SelectEmployeeToDelete">Odaberite zaposlenog za brisanje.</sys:String>
+    <sys:String x:Key="Msg_NoEmployees">Nema zaposlenih za prikaz</sys:String>
+
+
+
+
+</ResourceDictionary>

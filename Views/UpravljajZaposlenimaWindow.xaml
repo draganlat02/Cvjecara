@@ -1,0 +1,219 @@
+﻿<Window x:Class="PrviProjekat.Views.UpravljanjeZaposlenimaWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="{DynamicResource EmployeeManagement_Title}"
+        Height="600" Width="950"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource BackgroundBrush}"
+        FontFamily="{DynamicResource MainFont}">
+
+    <Window.Resources>
+        <sys:String x:Key="Position_Admin">Administrator</sys:String>
+        <sys:String x:Key="Position_Referent">Referent</sys:String>
+    </Window.Resources>
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="3*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- FORMA ZA DODAVANJE/UREĐIVANJE -->
+        <Border Background="{DynamicResource PanelBackground}"
+                CornerRadius="10"
+                Padding="15"
+                Margin="5"
+                BorderBrush="#DDD"
+                BorderThickness="1">
+            <StackPanel>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Header}"
+                           FontSize="18" FontWeight="Bold"
+                           Foreground="{DynamicResource TextBrush}"
+                           Margin="0,0,0,15"/>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Name}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <TextBox x:Name="ImeTextBox" Height="28" Margin="0,3,0,10"
+                         Background="{DynamicResource PanelBackground}"
+                         BorderBrush="#C6C6C6"/>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Surname}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <TextBox x:Name="PrezimeTextBox" Height="28" Margin="0,3,0,10"
+                         Background="{DynamicResource PanelBackground}"
+                         BorderBrush="#C6C6C6"/>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Contact}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <TextBox x:Name="KontaktTextBox" Height="28" Margin="0,3,0,10"
+                         Background="{DynamicResource PanelBackground}"
+                         BorderBrush="#C6C6C6"/>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Position}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <ComboBox x:Name="PozicijaComboBox" Height="28" Margin="0,3,0,10"
+                          Background="{DynamicResource PanelBackground}"
+                          BorderBrush="#C6C6C6">
+                    <ComboBoxItem Content="{StaticResource Position_Admin}"/>
+                    <ComboBoxItem Content="{StaticResource Position_Referent}"/>
+                </ComboBox>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Username}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <TextBox x:Name="UsernameTextBox" Height="28" Margin="0,3,0,10"
+                         Background="{DynamicResource PanelBackground}"
+                         BorderBrush="#C6C6C6"/>
+                <TextBlock Text="{DynamicResource EmployeeManagement_Label_Password}" FontWeight="SemiBold" Foreground="{DynamicResource TextBrush}"/>
+                <TextBox x:Name="PasswordTextBox" Height="28" Margin="0,3,0,15"
+                         Background="{DynamicResource PanelBackground}"
+                         BorderBrush="#C6C6C6"/>
+                <!-- DUGMAD -->
+                <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                    <!-- SAČUVAJ -->
+                    <Button Content="{DynamicResource EmployeeManagement_Button_Save}"
+                            Width="100" Margin="0,0,10,0"
+                            Click="SaveButton_Click"
+                            Background="{DynamicResource AccentBrush}"
+                            Foreground="White"
+                            FontWeight="Bold"
+                            Padding="10,5"
+                            BorderThickness="0"
+                            Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                        CornerRadius="8"
+                                        Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="{DynamicResource AccentHover}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                    <!-- OČISTI POLJA -->
+                    <Button Content="{DynamicResource EmployeeManagement_Button_Clear}"
+                            Width="100"
+                            Click="ClearFields_Click"
+                            Background="#E0E0E0"
+                            Foreground="{DynamicResource TextBrush}"
+                            Padding="10,5"
+                            BorderThickness="0"
+                            Cursor="Hand">
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Background="{TemplateBinding Background}"
+                                        CornerRadius="8"
+                                        Padding="{TemplateBinding Padding}">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#D0D0D0"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+
+        <!-- DATAGRID SA ZAPOSLENIMA -->
+        <Border Grid.Column="1"
+                Background="{DynamicResource PanelBackground}"
+                CornerRadius="10"
+                Padding="10"
+                Margin="5"
+                BorderBrush="#DDD"
+                BorderThickness="1">
+            <DataGrid x:Name="ZaposleniGrid"
+                      AutoGenerateColumns="False"
+                      CanUserAddRows="False"
+                      IsReadOnly="True"
+                      MouseDoubleClick="ZaposleniGrid_MouseDoubleClick"
+                      Background="Transparent"
+                      BorderThickness="0"
+                      RowHeight="45">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_ID}" Binding="{Binding Id}" Width="50">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_Name}" Binding="{Binding Ime}" Width="120">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Margin" Value="10,0,0,0"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_Surname}" Binding="{Binding Prezime}" Width="120">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Margin" Value="10,0,0,0"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_Contact}" Binding="{Binding Kontakt}" Width="120">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Margin" Value="10,0,0,0"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_Position}" Binding="{Binding Tip}" Width="100">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Center"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <DataGridTextColumn Header="{DynamicResource EmployeeManagement_Column_Username}" Binding="{Binding Username}" Width="120">
+                        <DataGridTextColumn.ElementStyle>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="Margin" Value="10,0,0,0"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            </Style>
+                        </DataGridTextColumn.ElementStyle>
+                    </DataGridTextColumn>
+                    <!-- DUGME ZA BRISANJE -->
+                    <DataGridTemplateColumn Header="{DynamicResource EmployeeManagement_Column_Action}" Width="80">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="{DynamicResource EmployeeManagement_Button_Delete}"
+                                        Width="60" Height="28"
+                                        Background="{DynamicResource DangerBrush}"
+                                        Foreground="White"
+                                        FontSize="11"
+                                        Cursor="Hand"
+                                        Click="DeleteButton_Click">
+                                    <Button.Template>
+                                        <ControlTemplate TargetType="Button">
+                                            <Border Background="{TemplateBinding Background}"
+                                                    CornerRadius="6">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+                                                    <Setter Property="Background" Value="{DynamicResource DangerHover}"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+    </Grid>
+</Window>

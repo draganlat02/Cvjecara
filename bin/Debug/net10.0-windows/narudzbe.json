@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Kupac": "Kupac 1",
+    "Proizvodi": [
+      {
+        "Id": 16,
+        "Naziv": "Ciklama u saksiji",
+        "Sifra": "CIK008",
+        "Cijena": 22.50,
+        "Kolicina": 1,
+        "Ukupno": 22.50,
+        "Opis": "Sretna ciklama u modernoj saksiji.",
+        "Kategorija": "Sobne biljke",
+        "Dostupan": true
+      }
+    ],
+    "Ukupno": 22.50,
+    "Status": "U IZRADI",
+    "Datum": "2025-11-03T17:03:47.2810949+01:00"
+  }
+]

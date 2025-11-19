@@ -1,0 +1,37 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- POZADINA -->
+    <SolidColorBrush x:Key="BackgroundBrush" Color="#E0F2FE"/>
+    <SolidColorBrush x:Key="PanelBackground" Color="#FFFFFF"/>
+    <SolidColorBrush x:Key="TextBrush" Color="#0C4A6E"/>
+
+    <!-- DUGMAD -->
+    <SolidColorBrush x:Key="AccentBrush"   Color="#0EA5E9"/>
+    <!-- tirkizna -->
+    <SolidColorBrush x:Key="SuccessBrush"  Color="#10B981"/>
+    <!-- zelena -->
+    <SolidColorBrush x:Key="DangerBrush"   Color="#EF4444"/>
+    <!-- crvena -->
+    <SolidColorBrush x:Key="EmployeeBrush" Color="#7C3AED"/>
+    <!-- ljubičasto -->
+
+    <!-- HOVER -->
+    <SolidColorBrush x:Key="AccentHover"   Color="#0284C7"/>
+    <SolidColorBrush x:Key="SuccessHover"  Color="#059669"/>
+    <SolidColorBrush x:Key="DangerHover"   Color="#DC2626"/>
+    <SolidColorBrush x:Key="EmployeeHover" Color="#1565C0"/>
+    <!-- Tamnije ljubičasto -->
+
+
+
+
+    <!-- Za OceanTheme.xaml -->
+    <Color x:Key="BorderColor">#BAE6FD</Color>
+    <SolidColorBrush x:Key="BorderBrush" Color="{DynamicResource BorderColor}"/>
+    <Color x:Key="LightBackgroundColor">#F0F9FF</Color>
+    <SolidColorBrush x:Key="LightBackground" Color="{DynamicResource LightBackgroundColor}"/>
+    
+    
+    
+    <FontFamily x:Key="MainFont">Calibri</FontFamily>
+</ResourceDictionary>

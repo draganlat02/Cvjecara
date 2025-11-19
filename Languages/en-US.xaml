@@ -1,0 +1,253 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- SVE IMA x:Key I xmlns:sys -->
+    <sys:String x:Key="Login_Title">Flower Shop Manager - Login</sys:String>
+    <sys:String x:Key="Login_Username">Username</sys:String>
+    <sys:String x:Key="Login_Password">Password</sys:String>
+    <sys:String x:Key="Login_Button">Login</sys:String>
+
+    <sys:String x:Key="Menu_Orders">Orders</sys:String>
+    <sys:String x:Key="Menu_Products">Products</sys:String>
+    <sys:String x:Key="Menu_Employees">Employees</sys:String>
+
+    <sys:String x:Key="Btn_Save">Save</sys:String>
+    <sys:String x:Key="Btn_Delete">Delete</sys:String>
+    <sys:String x:Key="Btn_Cancel">Cancel</sys:String>
+
+
+
+    <!-- en-US.xaml -->
+    <sys:String x:Key="App_Title">Flower Shop Manager</sys:String>
+ 
+    <sys:String x:Key="Btn_Logout">Logout</sys:String>
+    <sys:String x:Key="Status_Pending">In Progress</sys:String>
+    <sys:String x:Key="Status_Completed">Completed</sys:String>
+    <sys:String x:Key="Status_Canceled">Canceled</sys:String>
+    <sys:String x:Key="Btn_ChangeStatus">Change Status</sys:String>
+    <sys:String x:Key="Period_7Days">Last 7 days</sys:String>
+    <sys:String x:Key="Period_14Days">Last 14 days</sys:String>
+    <sys:String x:Key="Period_30Days">Last 30 days</sys:String>
+    <sys:String x:Key="Period_6Months">Last 6 months</sys:String>
+    <sys:String x:Key="Period_1Year">Last year</sys:String>
+    <sys:String x:Key="Period_All">All orders</sys:String>
+    <sys:String x:Key="Col_ID">ID</sys:String>
+    <sys:String x:Key="Col_Customer">Customer</sys:String>
+    <sys:String x:Key="Col_Date">Date</sys:String>
+    <sys:String x:Key="Col_Note">Note</sys:String>
+    <sys:String x:Key="Col_Status">Status</sys:String>
+    <sys:String x:Key="Col_Total">Total</sys:String>
+    <sys:String x:Key="Col_Items">Items</sys:String>
+    <sys:String x:Key="Msg_NoOrders">No orders to display</sys:String>
+    <sys:String x:Key="Btn_AddProduct">Add Product</sys:String>
+    <sys:String x:Key="Btn_EditProduct">Edit Product</sys:String>
+    <sys:String x:Key="Theme_Light">Light Theme</sys:String>
+    <sys:String x:Key="Theme_Pink">Pink Theme</sys:String>
+    <sys:String x:Key="Theme_Ocean">Ocean Theme</sys:String>
+
+    <sys:String x:Key="AddProduct_Title">Add Product</sys:String>
+    <sys:String x:Key="AddProduct_Header">Adding a new product</sys:String>
+    <sys:String x:Key="AddProduct_Name">Name:</sys:String>
+    <sys:String x:Key="AddProduct_Price">Price:</sys:String>
+    <sys:String x:Key="AddProduct_Code">Code:</sys:String>
+    <sys:String x:Key="AddProduct_Description">Description:</sys:String>
+    <sys:String x:Key="AddProduct_Category">Category:</sys:String>
+    
+    
+    <!-- KorpaWindow -->
+<sys:String x:Key="Cart_Title">My Cart</sys:String>
+<sys:String x:Key="Cart_Empty">Cart is empty</sys:String>
+<sys:String x:Key="Cart_Add">Add products to start shopping</sys:String>
+<sys:String x:Key="Cart_NameHeader">Name</sys:String>
+<sys:String x:Key="Cart_PriceHeader">Price (KM)</sys:String>
+<sys:String x:Key="Cart_QuantityHeader">Quantity</sys:String>
+<sys:String x:Key="Cart_TotalHeader">Total (KM)</sys:String>
+<sys:String x:Key="Cart_RemoveHeader">Remove</sys:String>
+<sys:String x:Key="Cart_RemoveButton">Remove</sys:String>
+<sys:String x:Key="Customer_Name">Customer Name:</sys:String>
+<sys:String x:Key="Note">Note (optional):</sys:String>
+<sys:String x:Key="Cart_TotalLabel">TOTAL:</sys:String>
+<sys:String x:Key="Cart_Checkout">Checkout</sys:String>
+<sys:String x:Key="Cart_Tooltip_Name">Enter customer name</sys:String>
+<sys:String x:Key="Cart_Tooltip_Remove">Remove from cart</sys:String>
+    <!-- DODAJ U en-US.xaml -->
+    <sys:String x:Key="Menu_Settings">Settings</sys:String>
+    <sys:String x:Key="Btn_Add">Add</sys:String>
+    <sys:String x:Key="Btn_Edit">Edit</sys:String>
+    <sys:String x:Key="Cart_Total">TOTAL:</sys:String>
+
+    <!-- KupacPanel - Referent -->
+    <sys:String x:Key="Customer_Panel_Title">Customer Panel</sys:String>
+    <sys:String x:Key="Customer_Welcome">Welcome to the product catalog!</sys:String>
+    <sys:String x:Key="Customer_OrdersBtn">View Orders</sys:String>
+    <sys:String x:Key="Customer_SearchPlaceholder">Search products...</sys:String>
+    <sys:String x:Key="Customer_AllCategories">All categories</sys:String>
+    <sys:String x:Key="Customer_Sort_NameAZ">Name (A-Z)</sys:String>
+    <sys:String x:Key="Customer_Sort_NameZA">Name (Z-A)</sys:String>
+    <sys:String x:Key="Customer_Sort_PriceLow">Price (Lowest)</sys:String>
+    <sys:String x:Key="Customer_Sort_PriceHigh">Price (Highest)</sys:String>
+    <sys:String x:Key="Customer_CartBtn">Cart</sys:String>
+    <sys:String x:Key="Customer_LogoutBtn">Logout</sys:String>
+    <sys:String x:Key="Customer_AddToCartBtn">Add to Cart</sys:String>
+    <sys:String x:Key="Customer_Tooltip_Orders">Show all your previous orders</sys:String>
+    <sys:String x:Key="Customer_Tooltip_Cart">Open cart</sys:String>
+
+
+    <!-- NarudzbaDetaljiWindow -->
+    <sys:String x:Key="OrderDetails_Title">Order Details</sys:String>
+    <sys:String x:Key="OrderDetails_Header">Order Details</sys:String>
+    <sys:String x:Key="OrderDetails_Customer">Customer:</sys:String>
+    <sys:String x:Key="OrderDetails_Date">Date:</sys:String>
+    <sys:String x:Key="OrderDetails_Status">Status:</sys:String>
+    <sys:String x:Key="OrderDetails_Product">Product</sys:String>
+    <sys:String x:Key="OrderDetails_Quantity">Quantity</sys:String>
+    <sys:String x:Key="OrderDetails_Price">Price</sys:String>
+    <sys:String x:Key="OrderDetails_Total">Total</sys:String>
+    <sys:String x:Key="OrderDetails_CompleteBtn">Complete Order</sys:String>
+    <sys:String x:Key="OrderDetails_CancelBtn">Cancel Order</sys:String>
+    <sys:String x:Key="OrderDetails_CompletedMsg">Order completed</sys:String>
+    <sys:String x:Key="OrderDetails_CanceledMsg">Order canceled</sys:String>
+    <sys:String x:Key="OrderDetails_TotalLabel">TOTAL:</sys:String>
+    <sys:String x:Key="OrderDetails_NoteLabel">Note:</sys:String>
+    <sys:String x:Key="OrderDetails_NoNote">No note</sys:String>
+
+    <sys:String x:Key="CustomerOrders_Title">My Orders</sys:String>
+    <sys:String x:Key="CustomerOrders_SearchPlaceholder">Search by customer...</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Pending">In Progress</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Completed">Completed</sys:String>
+    <sys:String x:Key="CustomerOrders_Filter_Canceled">Canceled</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_7Days">Last 7 days</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_14Days">Last 14 days</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_30Days">Last 30 days</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_6Months">Last 6 months</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_1Year">Last year</sys:String>
+    <sys:String x:Key="CustomerOrders_Period_All">All orders</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Customer">Customer</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Date">Date</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Status">Status</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Total">Total</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Items">Items</sys:String>
+    <sys:String x:Key="CustomerOrders_Column_Note">Note</sys:String>
+    <sys:String x:Key="CustomerOrders_Empty_Title">No orders to display</sys:String>
+    <sys:String x:Key="CustomerOrders_Empty_Subtitle">Try changing filters or period</sys:String>
+
+    <sys:String x:Key="StatusChange_Title">Change Status</sys:String>
+    <sys:String x:Key="StatusChange_Header">Change order status</sys:String>
+    <sys:String x:Key="StatusChange_Label">Select new status:</sys:String>
+    <sys:String x:Key="StatusChange_CancelBtn">Cancel</sys:String>
+    <sys:String x:Key="StatusChange_SaveBtn">Save</sys:String>
+
+
+    <sys:String x:Key="EmployeeManagement_Title">Employee Management</sys:String>
+    <sys:String x:Key="EmployeeManagement_Header">Add / Edit Employee</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Name">Name:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Surname">Surname:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Contact">Contact:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Position">Position:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Username">Username:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Label_Password">Password:</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Save">Save</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Clear">Clear Fields</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_ID">ID</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Name">Name</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Surname">Surname</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Contact">Contact</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Position">Position</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Username">Username</sys:String>
+    <sys:String x:Key="EmployeeManagement_Column_Action">Action</sys:String>
+    <sys:String x:Key="EmployeeManagement_Button_Delete">Delete</sys:String>
+
+
+    <sys:String x:Key="EditProducts_Title">Edit Products</sys:String>
+    <sys:String x:Key="EditProducts_Label_Name">Name:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Price">Price:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Code">Code:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Description">Description:</sys:String>
+    <sys:String x:Key="EditProducts_Label_Category">Category:</sys:String>
+    <sys:String x:Key="EditProducts_Button_Save">Save</sys:String>
+    <sys:String x:Key="EditProducts_Button_Delete">Delete</sys:String>
+    <sys:String x:Key="EditProducts_Column_ID">ID</sys:String>
+    <sys:String x:Key="EditProducts_Column_Name">Name</sys:String>
+    <sys:String x:Key="EditProducts_Column_Price">Price</sys:String>
+    <sys:String x:Key="EditProducts_Column_Code">Code</sys:String>
+    <sys:String x:Key="EditProducts_Column_Description">Description</sys:String>
+    <sys:String x:Key="EditProducts_Column_Category">Category</sys:String>
+
+    <sys:String x:Key="EditProducts_SelectToEdit">Select a product to edit by double-clicking.</sys:String>
+    <sys:String x:Key="EditProducts_SelectToDelete">Select a product to delete by double-clicking.</sys:String>
+    <sys:String x:Key="EditProducts_FillAllFields">Please fill in all required fields!</sys:String>
+    <sys:String x:Key="EditProducts_InvalidPrice">Enter a valid price format!</sys:String>
+    <sys:String x:Key="EditProducts_CodeExists">A product with this code already exists!</sys:String>
+    <sys:String x:Key="EditProducts_Updated">Product updated!</sys:String>
+    <sys:String x:Key="EditProducts_Deleted">Product deleted!</sys:String>
+    <sys:String x:Key="EditProducts_ConfirmDelete">Are you sure you want to delete '{0}'?</sys:String>
+    <sys:String x:Key="EditProducts_ErrorUpdate">Error updating product: {0}</sys:String>
+    <sys:String x:Key="EditProducts_ErrorDelete">Error deleting product: {0}</sys:String>
+
+    <sys:String x:Key="OrderDetails_StatusChanged">Status changed to '{0}'.</sys:String>
+    <sys:String x:Key="OrderDetails_StatusUpdated">Order is now: {0}</sys:String>
+    <sys:String x:Key="OrderDetails_ErrorUpdate">Error: {0}</sys:String>
+
+
+    <!-- NAME AND SURNAME VALIDATION -->
+    <sys:String x:Key="Msg_NameOnlyLetters">First name can only contain letters!</sys:String>
+    <sys:String x:Key="Msg_SurnameOnlyLetters">Last name can only contain letters!</sys:String>
+
+    <sys:String x:Key="Title_Error">Error</sys:String>
+
+    <sys:String x:Key="Msg_SelectOrder">Please select an order.</sys:String>
+
+    <sys:String x:Key="Total_Earnings">Total Earnings: {0:F2} KM</sys:String>
+
+    <sys:String x:Key="Cart_CustomerName">Customer name</sys:String>
+    <sys:String x:Key="Cart_CustomerName_Placeholder">Enter customer name...</sys:String>
+
+    <sys:String x:Key="Cart_Empty_Title">Cart is empty</sys:String>
+    <sys:String x:Key="Cart_Empty_Subtitle">Add products to start shopping</sys:String>
+    <sys:String x:Key="Cart_Column_Product">Product</sys:String>
+    <sys:String x:Key="Cart_Column_Price">Price (KM)</sys:String>
+    <sys:String x:Key="Cart_Column_Quantity">Qty</sys:String>
+    <sys:String x:Key="Cart_Column_Total">Total (KM)</sys:String>
+    <sys:String x:Key="Cart_Column_Remove">Remove</sys:String>
+    <sys:String x:Key="Cart_RemoveBtn">Remove</sys:String>
+    <sys:String x:Key="Cart_CustomerName_Tooltip">Enter customer name</sys:String>
+    <sys:String x:Key="Cart_Note">Note (optional):</sys:String>
+    <sys:String x:Key="Cart_FinishBtn">Complete Purchase</sys:String>
+    <sys:String x:Key="Msg_EnterCustomerName">Please enter customer name before placing order!</sys:String>
+    <sys:String x:Key="Msg_CartEmpty">Cart is empty!</sys:String>
+    <sys:String x:Key="Msg_OrderSuccess">Order successfully saved!</sys:String>
+
+
+
+    <!-- bs-BA.xaml -->
+    <sys:String x:Key="Tab_Orders">Narudžbe</sys:String>
+    <sys:String x:Key="Tab_Products">Proizvodi</sys:String>
+    <sys:String x:Key="Tab_Employees">Zaposleni</sys:String>
+    <sys:String x:Key="Tab_Logout">Odjava</sys:String>
+    <sys:String x:Key="Btn_InProgress">U obradi</sys:String>
+    <sys:String x:Key="Btn_Completed">Završeno</sys:String>
+    <sys:String x:Key="Btn_Cancelled">Otkazano</sys:String>
+
+    <sys:String x:Key="Filter_ByStatus">Filter by status:</sys:String>
+
+    <sys:String x:Key="EmptyProducts_Title">No products to display</sys:String>
+    <sys:String x:Key="EmptyProducts_Subtitle">Try changing your search, category, or sorting options.</sys:String>
+
+    <sys:String x:Key="Msg_AllFieldsRequired">All fields are required except phone!</sys:String>
+    <sys:String x:Key="Msg_NameLettersOnly">First name can contain only letters and spaces!</sys:String>
+    <sys:String x:Key="Msg_SurnameLettersOnly">Last name can contain only letters and spaces!</sys:String>
+    <sys:String x:Key="Msg_ContactNumbersOnly">Phone can contain only numbers!</sys:String>
+    <sys:String x:Key="Msg_ContactLength">Phone must have 9 or 10 digits!</sys:String>
+    <sys:String x:Key="Msg_ContactMustStartWith06">Phone must start with 06</sys:String>
+    <sys:String x:Key="Msg_UsernameExists">This username already exists!</sys:String>
+    <sys:String x:Key="Msg_UsernameMinLength">Username must be at least 4 characters long!</sys:String>
+    <sys:String x:Key="Msg_UsernameInvalidChars">Username can contain only letters, numbers and underscore (_)</sys:String>
+    <sys:String x:Key="Msg_PasswordMinLength">Password must be at least 6 characters long!</sys:String>
+    <sys:String x:Key="Msg_EmployeeAdded">Employee successfully added!</sys:String>
+    <sys:String x:Key="Msg_EmployeeUpdated">Employee successfully updated!</sys:String>
+    <sys:String x:Key="Msg_ConfirmDelete">Are you sure you want to delete {0} {1}?</sys:String>
+    <sys:String x:Key="Msg_SelectEmployeeToDelete">Please select an employee to delete.</sys:String>
+    <sys:String x:Key="Msg_NoEmployees">No employees to display</sys:String>
+
+</ResourceDictionary>
