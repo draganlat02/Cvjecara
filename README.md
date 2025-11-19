@@ -151,3 +151,4 @@ Sve promjene se odmah pamte u bazi!
 - Ikona na dnu lijevog menija 
 
 ---
+docs: dodan kompletan korisnički priručnik
