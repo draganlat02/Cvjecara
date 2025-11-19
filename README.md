@@ -141,13 +141,13 @@ Dodavanje novog proizvoda
 
 ### 3.5 Upravljanje zaposlenima
 
-![Upravljanje zaposlenima](Screenshots/08_zaposleni)
+![Upravljanje zaposlenima](Screenshots/08_zaposleni.png)
 
 - Dodavanje novih referenata/administratora
 - Promjena lozinke
 - Brisanje korisnika
 
- ![Upravljanje zaposlenima](Screenshots/08_zaposleni2)
+ ![Upravljanje zaposlenima](Screenshots/08_zaposleni2.png)
 
 ---
 
