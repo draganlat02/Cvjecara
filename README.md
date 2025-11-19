@@ -68,14 +68,19 @@ Svi korisnici mogu:
 - Filteri sa prelijepim obojenim dugmadima:
   - **U obradi** → narandžasto (default aktivno)
   - **Završeno** → zeleno
+ ![Pregled narudžbi](Screenshots/04_narudzbe1.png)
+    
   - **Otkazano** → crveno
+    
+ ![Pregled narudžbi](Screenshots/04_narudzbe2.png)
+    
 - Pretraga po imenu kupca ili napomeni (automatski filtrira prilikom kucanja)
 - Filter po periodu: 7 dana, 14 dana, 30 dana, 6 mjeseci, godina, sve
 - Dvostruki klik na narudžbu → otvara detalje
 
 ### 3.4 Detalji narudžbe i promjena statusa
 
-![Detalji narudžbe](Screenshots/05_detalji_narudzbe.png)
+![Detalji narudžbe](Screenshots/06_detalji.png)
 
 - Prikaz:
   - Ime kupca
@@ -83,37 +88,44 @@ Svi korisnici mogu:
   - Lista stavki (naziv × količina)
   - Ukupna cijena
   - Napomena
-- Tri velika dugmeta za brzu promjenu statusa:
-  - **U obradi**
+- Dva velika dugmeta za brzu promjenu statusa:
   - **Završeno**
   - **Otkazano**
-- Ili dugme **„Promijeni status“** → otvori poseban prozor za odabir
 
 Sve promjene se odmah pamte u bazi!
 
 ---
-## 3. ZAPOSLENI / ADMINISTRATOR – sve mogućnosti
+## 3. ADMINISTRATOR – sve mogućnosti
 
 ### 3.1 Pregled svih narudžbi
 
-![Zaposleni – narudžbe](Screenshots/05_zaposleni_narudzbe.png)
+![Zaposleni – narudžbe](Screenshots/05_admin.png)
 
 - Prikaz SVIH narudžbi iz sistema
 - Isti filteri kao kod kupca + mogućnost promjene statusa
+  ![Zaposleni – narudžbe](Screenshots/05_narudzbe1.png)
+    ![Zaposleni – narudžbe](Screenshots/05_narudzbe2.png)
+  
 - Dvostruki klik → detalji narudžbe
+
+![Detalji narudžbe](Screenshots/06_detalji.png)
 
 ### 3.2 Promjena statusa narudžbe
 
-![Promjena statusa](Screenshots/06_promjena_statusa.png)
+![Promjena statusa](Screenshots/07_status.png)
 
 - Dugme **„Promijeni status“**
 - Opcije:
   - U obradi → Završeno → Otkazano
-- Promjena se odmah vidi kod kupca
+- Promjena se odmah čuva u bazi.
 
-### 3.3 Dodavanje novog proizvoda
+### 3.3 Pregled i dodavanje novog proizvoda
 
-![Dodaj proizvod](Screenshots/07_dodaj_proizvod.png)
+![Dodaj proizvod](Screenshots/07_proizvodi.png)
+
+Dodavanje novog proizvoda
+
+![Dodaj proizvod](Screenshots/07_proizvodi1.png)
 
 - Forma sa svim poljima: naziv, cijena, kategorija, opis, slika
 - Validacija obaveznih polja
@@ -121,7 +133,7 @@ Sve promjene se odmah pamte u bazi!
 
 ### 3.4 Uređivanje i brisanje proizvoda
 
-![Uredi proizvode](Screenshots/08_uredi_proizvode.png)
+![Uredi proizvode](Screenshots/07_proizvodi2.png)
 
 - Tabelarni pregled svih proizvoda
 - Dugmad „Uredi“ i „Obriši“
@@ -129,19 +141,21 @@ Sve promjene se odmah pamte u bazi!
 
 ### 3.5 Upravljanje zaposlenima
 
-![Upravljanje zaposlenima](Screenshots/09_upravljanje_zaposlenima.png)
+![Upravljanje zaposlenima](Screenshots/08_zaposleni)
 
 - Dodavanje novih referenata/administratora
 - Promjena lozinke
 - Brisanje korisnika
+
+ ![Upravljanje zaposlenima](Screenshots/08_zaposleni2)
 
 ---
 
 ## 4. Personalizacija i odjava
 
 ### Promjena teme i jezika
-
-![Teme i jezik](Screenshots/10_teme_jezik.png)
+![Teme i jezik](Screenshots/09_tema.png)
+![Teme i jezik](Screenshots/jezik.png)
 
 - Gore desno:
   - Tri kruga → **Svijetla | Pink | Ocean** tema
@@ -151,4 +165,4 @@ Sve promjene se odmah pamte u bazi!
 - Ikona na dnu lijevog menija 
 
 ---
-docs: dodan kompletan korisnički priručnik
+
