@@ -31,9 +31,7 @@ Svi korisnici mogu:
 
 ## 2. REFERENT – kompletno uputstvo
 
-### 2.1 Glavni katalog proizvoda
-
-### 3.1 Glavni ekran – Katalog proizvoda 
+### 2.1 Glavni ekran – Katalog proizvoda 
 
 ![Glavni ekran referenta](Screenshots/02_glavni_ekran.png)
 
@@ -47,7 +45,7 @@ Svi korisnici mogu:
   - Po cijeni od najskupljeg
 - Dugme **„Dodaj u korpu“** na svakoj kartici
 
-### 3.2 Kreiranje narudžbe za kupca
+### 2.2 Kreiranje narudžbe za kupca
 
 ![Korpa](Screenshots/03_korpa.png)
 
@@ -60,7 +58,7 @@ Svi korisnici mogu:
    - Dodati napomenu (npr. „Hitno“, „Dostava na adresu...“, „Potrebno je dodati..“)
 5. Klikni **„Naruči“** → narudžba se automatski kreira i šalje u sistem
 
-### 3.3 Pregled svih narudžbi 
+### 2.3 Pregled svih narudžbi 
 
 ![Pregled narudžbi](Screenshots/04_narudzbe.png)
 
@@ -78,7 +76,7 @@ Svi korisnici mogu:
 - Filter po periodu: 7 dana, 14 dana, 30 dana, 6 mjeseci, godina, sve
 - Dvostruki klik na narudžbu → otvara detalje
 
-### 3.4 Detalji narudžbe i promjena statusa
+### 2.4 Detalji narudžbe i promjena statusa
 
 ![Detalji narudžbe](Screenshots/06_detalji.png)
 
